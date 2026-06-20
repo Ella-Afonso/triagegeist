@@ -1,0 +1,8 @@
+disposition,full_pct,train_pct,holdout_pct
+discharged,48.78,48.78,48.79
+admitted,30.75,30.75,30.75
+transferred,6.5,6.5,6.51
+observation,5.42,5.42,5.42
+lwbs,4.57,4.57,4.57
+lama,3.45,3.45,3.46
+deceased,0.51,0.51,0.51

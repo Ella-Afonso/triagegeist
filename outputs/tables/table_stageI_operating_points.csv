@@ -1,0 +1,7 @@
+target,model,threshold_strategy,threshold,precision,recall,specificity,tn,fp,fn,tp
+is_lwbs,lightgbm,max_f1_on_train_oof,0.3873,0.0584,0.5841,0.5491,8384,6885,304,427
+is_lwbs,lightgbm,top_10pct_capacity,0.5589,0.0694,0.1518,0.9025,13780,1489,620,111
+is_lwbs,acuity_only,top_10pct_capacity,0.0688,0.0648,0.3995,0.7241,11056,4213,439,292
+is_lama,lightgbm,max_f1_on_train_oof,0.1976,0.0418,0.8807,0.2777,4289,11158,66,487
+is_lama,lightgbm,top_10pct_capacity,0.5063,0.0469,0.1356,0.9013,13922,1525,478,75
+is_lama,acuity_only,top_10pct_capacity,0.0525,0.0511,0.4159,0.7232,11172,4275,323,230

@@ -1,0 +1,7 @@
+target,baseline,selected_threshold,selection_metric,train_balanced_accuracy,holdout_balanced_accuracy,direction,notes
+is_admitted,majority_class,,none,0.5,0.5,predict majority class 0,absolute floor baseline
+is_admitted,news2_rule,3.0,train_balanced_accuracy,0.7102,0.7077,news2_score >= threshold -> positive,chosen on train; ties -> higher sensitivity -> more conservative (higher) threshold
+is_admitted,acuity_only,3.0,train_balanced_accuracy,0.7558,0.752,triage_acuity <= threshold -> positive,rate-lookup + threshold both computed on train only
+is_long_stay,majority_class,,none,0.5,0.5,predict majority class 0,absolute floor baseline
+is_long_stay,news2_rule,3.0,train_balanced_accuracy,0.7525,0.7526,news2_score >= threshold -> positive,chosen on train; ties -> higher sensitivity -> more conservative (higher) threshold
+is_long_stay,acuity_only,3.0,train_balanced_accuracy,0.8208,0.8177,triage_acuity <= threshold -> positive,rate-lookup + threshold both computed on train only

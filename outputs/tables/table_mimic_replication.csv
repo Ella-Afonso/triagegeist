@@ -1,0 +1,11 @@
+pr_auc_or_average_precision,roc_auc,balanced_accuracy,sensitivity,specificity,tn,fp,fn,tp,target,model,base_rate,delta_ap_vs_acuity,cv_pr_mean,cv_roc_mean,verdict
+0.4773,0.5,0.5,0.0,1.0,43741,0,39942,0,is_admitted_mimic,majority_class,0.4773,-0.1579,,,
+0.6352,0.7114,0.6834,0.5813,0.7855,34358,9383,16723,23219,is_admitted_mimic,acuity_only,0.4773,-0.0,,,
+0.8081,0.8238,0.7458,0.7251,0.7665,33529,10212,10981,28961,is_admitted_mimic,strict_triage_lightgbm,0.4773,0.1729,0.8033,0.8191,DIVERGES
+0.814,0.8307,0.7523,0.7574,0.7472,32684,11057,9688,30254,is_admitted_mimic,extended_intake_lightgbm,0.4773,0.1788,,,
+0.8204,0.8383,0.7577,0.7598,0.7557,33054,10687,9596,30346,is_admitted_mimic,strict_plus_acuity_companion,0.4773,0.1852,,,
+0.6926,0.5,0.5,0.0,1.0,25725,0,57958,0,is_long_stay_mimic,majority_class,0.6926,-0.0595,,,
+0.7521,0.623,0.5743,0.3774,0.7712,19840,5885,36083,21875,is_long_stay_mimic,acuity_only,0.6926,0.0,,,
+0.8383,0.7293,0.6685,0.7342,0.6029,15509,10216,15404,42554,is_long_stay_mimic,strict_triage_lightgbm,0.6926,0.0862,0.8387,0.7271,DIVERGES
+0.8467,0.7396,0.6763,0.7131,0.6395,16451,9274,16629,41329,is_long_stay_mimic,extended_intake_lightgbm,0.6926,0.0946,,,
+0.8455,0.7412,0.6777,0.718,0.6374,16396,9329,16343,41615,is_long_stay_mimic,strict_plus_acuity_companion,0.6926,0.0934,,,

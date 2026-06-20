@@ -1,0 +1,16 @@
+target,rank,feature,mean_abs_shap
+is_lwbs,1,gcs_total,0.38156869001641847
+is_lwbs,2,news2_score,0.18668421199807794
+is_lwbs,3,respiratory_rate,0.14397145549135865
+is_lwbs,4,chief_complaint_system,0.10027674509840073
+is_lwbs,5,mental_status_triage,0.09709331902617636
+is_lwbs,6,temperature_c,0.09001435766081277
+is_lwbs,7,spo2,0.08653406051400755
+is_lwbs,8,mean_arterial_pressure,0.08595471944722169
+is_lwbs,9,shock_index,0.08086897311137842
+is_lwbs,10,heart_rate,0.0788664382316971
+is_lwbs,11,height_cm,0.0758768906927104
+is_lwbs,12,diastolic_bp,0.0714006229125343
+is_lwbs,13,arrival_day,0.06344656426497008
+is_lwbs,14,pulse_pressure,0.06253688748020815
+is_lwbs,15,transport_origin,0.05787966439296203

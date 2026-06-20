@@ -1,0 +1,19 @@
+variable,description,coding_summary,role,include_exclude,notes
+IMMEDR,Triage immediacy/urgency (NHAMCS analogue of ESI acuity),1=immediate..5=nonurgent; valid 1-5 only,triage_label,exclude_from_features,used for IMMEDR-only baseline + descriptive gradient; not a model feature
+triage_acuity,Harmonised 1:1 copy of IMMEDR,1-5,triage_label,exclude_from_features,duplicate of IMMEDR
+PATWT,Patient visit survey weight,"positive float [90,57926]",survey_weight,exclude_from_features,descriptive weighting ONLY; never trained/feature
+ed_los_min,ED length of visit (minutes),0-5722 min; 267 missing,outcome_source,exclude_from_features,defines is_long_stay (>=240min); leakage if used as feature
+LOS,"Hospital length of stay (DAYS, admitted only)",1-85 days; ~8870 missing,post_visit,exclude,"post-hospital, NOT ED LOV - never used"
+ADMITHOS,Admitted to this hospital,0/1,outcome_source,exclude_from_features,is_admitted component
+OBSHOS,Observation unit -> admitted to hospital,0/1,outcome_source,exclude_from_features,is_admitted component
+TRANNH/TRANPSYC/TRANOTH,Transferred to another facility,0/1 each,outcome_source,exclude_from_features,is_admitted (transfer) components
+OBSDIS,Observation -> discharged,0/1,disposition,exclude,"discharged, NOT admission"
+ADISP,Single summary disposition (sparse),1-4; ~8910 missing,disposition,exclude,too sparse; outcomes built from clean binary flags instead
+heart_rate/respiratory_rate/systolic_bp/diastolic_bp/spo2/temperature_c/pain_score,Harmonised triage-time vitals,physiologic ranges; NaN where not recorded,vital,include,triage-time; native-NaN + missing indicators
+hx_* (20) / comorbidity_count,Medical history flags,0/1 / count,history,include,known at triage
+age/sex/race_ethnicity/insurance_type,Demographics,coded,demographic,include,triage-time
+arrival_hour/night_arrival/arrived_by_ambulance/visit_month/visit_day,Arrival/timing,coded,arrival,include,triage-time
+rfv1_code,Reason-for-visit (chief complaint) code,"NHAMCS RFV1, Appendix II codes 10050-89990",complaint,include,"triage-time; reason-for-visit coding, distinct from ICD-10 DIAG* diagnoses"
+wait_time_min,Time to be seen (post-triage),minutes,post_triage,exclude,only known after triage -> leakage
+diag1_text/diag2_text/diag3_text,ED discharge diagnoses,text,post_visit,exclude,known after visit -> leakage
+codebook (doc22-ed-508.pdf),Official 2022 NHAMCS ED codebook,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/dataset_documentation/nhamcs/doc22-ed-508.pdf,provenance,reference,all hx_* names cross-checked; HPE corrected hepatic_disease->pulmonary_embolism

@@ -1,0 +1,7 @@
+target,baseline,balanced_accuracy,roc_auc,pr_auc,accuracy,sensitivity,specificity,precision,tn,fp,fn,tp,positive_base_rate,notes
+is_admitted,majority_class,0.5,0.5,0.3726,0.6274,0.0,1.0,,10039,0,5961,0,0.3726,always predict class 0; constant score = train base rate 0.373
+is_admitted,news2_rule,0.7077,0.7724,0.6531,0.7201,0.6589,0.7564,0.6163,7593,2446,2033,3928,0.3726,predict 1 if news2_score >= 3; ROC/PR use min-max news2 (threshold-free)
+is_admitted,acuity_only,0.752,0.8159,0.6606,0.7168,0.8903,0.6138,0.5779,6162,3877,654,5307,0.3726,rate-lookup (train-only) for ROC/PR; hard label acuity <= 3; THE BAR TO BEAT
+is_long_stay,majority_class,0.5,0.5,0.3579,0.6421,0.0,1.0,,10273,0,5727,0,0.3579,always predict class 0; constant score = train base rate 0.357
+is_long_stay,news2_rule,0.7526,0.825,0.7057,0.7611,0.7227,0.7824,0.6494,8038,2235,1588,4139,0.3579,predict 1 if news2_score >= 3; ROC/PR use min-max news2 (threshold-free)
+is_long_stay,acuity_only,0.8177,0.8726,0.7102,0.7711,0.982,0.6535,0.6124,6713,3560,103,5624,0.3579,rate-lookup (train-only) for ROC/PR; hard label acuity <= 3; THE BAR TO BEAT

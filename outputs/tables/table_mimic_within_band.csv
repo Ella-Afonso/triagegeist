@@ -1,0 +1,5 @@
+target,esi_band,n,positives,base_rate,oof_roc_auc,oof_pr_auc,verdict
+is_admitted_mimic,3,179527,65625,0.3655,0.7839,0.6744,SIGNAL
+is_admitted_mimic,4,22751,1109,0.0487,0.8138,0.2468,SIGNAL
+is_long_stay_mimic,3,179527,125098,0.6968,0.7298,0.8449,SIGNAL
+is_long_stay_mimic,4,22751,5756,0.253,0.6919,0.4545,SIGNAL

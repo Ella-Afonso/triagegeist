@@ -1,0 +1,7 @@
+dataset,target,label_only_model,triage_time_model,base_rate,label_only_AP,triage_time_AP,delta_AP,divergence_verdict,within_band_verdict_summary,key_interpretation
+synthetic,is_admitted,acuity_only_baseline,stageH_no_acuity,0.3726,0.6606,0.6884,0.0278,REPLICATES_SEVERITY_COLLAPSE,All NO_SIGNAL (ESI 3-4; OOF ROC ~0.50),AP ~ acuity only; Stage H LOST on balanced-acc (-0.024) and ROC-AUC (-0.012)
+synthetic,is_long_stay,acuity_only_baseline,stageH_no_acuity,0.3579,0.7102,0.7333,0.0231,REPLICATES_SEVERITY_COLLAPSE,All NO_SIGNAL (ESI 3-4; OOF ROC ~0.50),AP ~ acuity only; Stage H LOST on balanced-acc (-0.034) and ROC-AUC (-0.010)
+NHAMCS,is_admitted_nhamcs,immedr_only,lightgbm_primary_no_immedr,0.1632,0.3029,0.4995,0.1966,DIVERGES,Not tested (IMMEDR != ESI; feature structure differs),Triage-time features beat IMMEDR-only on admission (+0.197 AP)
+NHAMCS,is_long_stay_nhamcs,immedr_only,lightgbm_primary_no_immedr,0.4156,0.5033,0.6076,0.1043,DIVERGES,Not tested (IMMEDR != ESI; feature structure differs),Triage-time features beat IMMEDR-only on long-stay (+0.104 AP)
+MIMIC,is_admitted_mimic,acuity_only,strict_triage_lightgbm,0.4796,0.6352,0.8081,0.1729,DIVERGES,All SIGNAL (ESI 3-4; 4/4 bands pass ROC>=0.58 rule),Strict triage LightGBM beats ESI acuity-only; within-band SIGNAL in ESI 3-4
+MIMIC,is_long_stay_mimic,acuity_only,strict_triage_lightgbm,0.692,0.7521,0.8383,0.0862,DIVERGES,All SIGNAL (ESI 3-4; 4/4 bands pass ROC>=0.58 rule),Strict triage LightGBM beats ESI acuity-only; within-band SIGNAL in ESI 3-4

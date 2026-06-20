@@ -1,0 +1,48 @@
+# Data (do not commit raw or large data files)
+data/raw/*.csv
+data/nhamcs/*.csv
+data/nhamcs/*.txt
+data/nhamcs/*.pdf
+data/mimic/
+data/mimic/*
+*.csv.gz
+data/processed/*.csv
+
+# Processed caches (regenerable; some are MIMIC-derived row-level)
+data/processed/
+*.npz
+
+# MIMIC row-level outputs (never commit)
+outputs/**/mimic_*predictions*
+outputs/**/mimic_*patient*
+outputs/**/mimic_*stay*
+outputs/**/mimic_*row*
+
+# Model artifacts
+outputs/models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Working notebook (not for public submission)
+notebooks/triagegeist_main.ipynb
+
+# Internal scratch / helper scripts (root-level only; keep package __init__.py)
+/_*.py
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.cursor/
+
+docs/
+AGENTS.md
+
+data/mimic/
+data/mimic/*
+*.csv.gz
