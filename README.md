@@ -191,4 +191,4 @@ Finally, within-band predictive signal demonstrates that residual outcome-releva
 
 Triagegeist is a solo entry for the Kaggle-hosted **Triagegeist** track by the **Laitinen-Fredriksson Foundation**. The project is judged by rubric rather than leaderboard position.
 
-Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Project code and notebook materials are released under the Apache License 2.0. Third-party datasets remain subject to their original access terms and licences.
