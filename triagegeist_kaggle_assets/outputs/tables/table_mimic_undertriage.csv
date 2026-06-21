@@ -1,0 +1,11 @@
+dataset,target,acuity_or_esi_level,unweighted_n,outcome_rate,rate_type,notes
+MIMIC,is_admitted_mimic,1,23991,0.7944,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_admitted_mimic,2,138625,0.6979,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_admitted_mimic,3,224652,0.3653,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_admitted_mimic,4,28486,0.0488,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_admitted_mimic,5,1099,0.0346,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_long_stay_mimic,1,23991,0.6397,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_long_stay_mimic,2,138625,0.7875,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_long_stay_mimic,3,224652,0.6971,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_long_stay_mimic,4,28486,0.2535,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC
+MIMIC,is_long_stay_mimic,5,1099,0.1092,unweighted,MIMIC-IV-ED ESI acuity; single-centre BIDMC

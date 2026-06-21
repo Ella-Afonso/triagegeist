@@ -1,0 +1,5 @@
+target,base_rate
+is_admitted,0.3725
+is_long_stay,0.3568
+is_lwbs,0.0457
+is_lama,0.0345

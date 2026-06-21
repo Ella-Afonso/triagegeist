@@ -1,0 +1,3 @@
+dataset,target,n,positives,base_rate
+MIMIC,is_admitted_mimic,418100,200500,0.4796
+MIMIC,is_long_stay_mimic,416853,288465,0.692

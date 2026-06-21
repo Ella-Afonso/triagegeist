@@ -1,0 +1,3 @@
+target,acuity_only_balanced_accuracy,acuity_only_roc_auc,acuity_only_pr_auc,acuity_threshold,positive_base_rate
+is_admitted,0.752,0.8159,0.6606,3.0,0.3726
+is_long_stay,0.8177,0.8726,0.7102,3.0,0.3579

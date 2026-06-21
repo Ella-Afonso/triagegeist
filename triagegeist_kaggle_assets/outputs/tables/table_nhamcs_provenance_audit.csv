@@ -1,0 +1,23 @@
+model_feature,likely_source_raw_var,is_triage_time_available,evidence
+hx_hypertension,HTN,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'HTN'
+hx_diabetes_type2,DIABTYP2,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'DIABTYP2'
+hx_diabetes_type1,DIABTYP1,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'DIABTYP1'
+hx_asthma,ASTHMA,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'ASTHMA'
+hx_copd,COPD,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'COPD'
+hx_congestive_heart_failure,CHF,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'CHF'
+hx_chronic_kidney_disease,CKD,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'CKD'
+hx_cancer,CANCER,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'CANCER'
+hx_depression,DEPRN,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'DEPRN'
+hx_coronary_artery_disease,CAD,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'CAD'
+hx_alcohol_misuse,ETOHAB,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'ETOHAB'
+hx_substance_abuse,SUBSTAB,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'SUBSTAB'
+hx_obesity,OBESITY,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'OBESITY'
+hx_hyperlipidemia,HYPLIPID,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'HYPLIPID'
+hx_cerebrovascular_disease_stroke,CEBVD,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'CEBVD'
+hx_alzheimers_dementia,ALZHD,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'ALZHD'
+hx_obstructive_sleep_apnea,OSA,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'OSA'
+hx_osteoporosis,OSTPRSIS,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'OSTPRSIS'
+hx_hiv_aids,EDHIV,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'EDHIV'
+hx_pulmonary_embolism,HPE,True,1:1 agreement=1.000 with NHAMCS chronic-condition history item 'HPE'
+comorbidity_count,TOTCHRON / sum(hx_*),True,corr=0.991 with NHAMCS TOTCHRON (chronic-condition count)
+rfv1_code,RFV1,True,"agreement=1.000 with RFV1 (NHAMCS RFV1 Patient's Reason for Visit, Appendix II codes 10050-89990; distinct from ICD-10 DIAG*)"

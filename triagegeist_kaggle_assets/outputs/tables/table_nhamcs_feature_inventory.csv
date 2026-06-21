@@ -1,0 +1,54 @@
+variable,description,type,missingness_rate,triage_time_available,include_exclude,reason
+heart_rate,heart_rate,vital,0.0342,True,include,known at/before triage; leakage-scan clean
+respiratory_rate,respiratory_rate,vital,0.0235,True,include,known at/before triage; leakage-scan clean
+systolic_bp,systolic_bp,vital,0.0852,True,include,known at/before triage; leakage-scan clean
+diastolic_bp,diastolic_bp,vital,0.0922,True,include,known at/before triage; leakage-scan clean
+spo2,spo2,vital,0.2062,True,include,known at/before triage; leakage-scan clean
+temperature_c,temperature_c,vital,0.0356,True,include,known at/before triage; leakage-scan clean
+pain_score,pain_score,vital,0.2923,True,include,known at/before triage; leakage-scan clean
+heart_rate_missing,heart_rate_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+respiratory_rate_missing,respiratory_rate_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+systolic_bp_missing,systolic_bp_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+diastolic_bp_missing,diastolic_bp_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+spo2_missing,spo2_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+temperature_c_missing,temperature_c_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+pain_missing,pain_missing,vital_missing_indicator,0.0,True,include,known at/before triage; leakage-scan clean
+age,age,demographic,0.0,True,include,known at/before triage; leakage-scan clean
+arrival_hour,arrival_hour,arrival,0.0,True,include,known at/before triage; leakage-scan clean
+night_arrival,night_arrival,arrival,0.0,True,include,known at/before triage; leakage-scan clean
+visit_month,visit_month,arrival,0.0,True,include,known at/before triage; leakage-scan clean
+visit_day,visit_day,arrival,0.0,True,include,known at/before triage; leakage-scan clean
+severe_pain,severe_pain,vital,0.0,True,include,known at/before triage; leakage-scan clean
+comorbidity_count,comorbidity_count,history,0.0,True,include,known at/before triage; leakage-scan clean
+high_comorbidity,high_comorbidity,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_alcohol_misuse,hx_alcohol_misuse,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_asthma,hx_asthma,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_cancer,hx_cancer,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_chronic_kidney_disease,hx_chronic_kidney_disease,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_copd,hx_copd,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_coronary_artery_disease,hx_coronary_artery_disease,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_alzheimers_dementia,hx_alzheimers_dementia,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_depression,hx_depression,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_diabetes_type1,hx_diabetes_type1,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_diabetes_type2,hx_diabetes_type2,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_congestive_heart_failure,hx_congestive_heart_failure,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_pulmonary_embolism,hx_pulmonary_embolism,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_hiv_aids,hx_hiv_aids,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_hyperlipidemia,hx_hyperlipidemia,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_hypertension,hx_hypertension,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_obesity,hx_obesity,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_osteoporosis,hx_osteoporosis,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_obstructive_sleep_apnea,hx_obstructive_sleep_apnea,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_cerebrovascular_disease_stroke,hx_cerebrovascular_disease_stroke,history,0.0,True,include,known at/before triage; leakage-scan clean
+hx_substance_abuse,hx_substance_abuse,history,0.0,True,include,known at/before triage; leakage-scan clean
+sex,sex,demographic,0.0,True,include,known at/before triage; leakage-scan clean
+race_ethnicity,race_ethnicity,demographic,0.0,True,include,known at/before triage; leakage-scan clean
+insurance_type,insurance_type,demographic,0.0748,True,include,known at/before triage; leakage-scan clean
+arrived_by_ambulance,arrived_by_ambulance,arrival,0.0162,True,include,known at/before triage; leakage-scan clean
+rfv1_code,rfv1_code,complaint,0.0006,True,include,known at/before triage; leakage-scan clean
+IMMEDR,IMMEDR,excluded,0.0,True,exclude,triage label - baseline only
+triage_acuity,triage_acuity,excluded,0.0,True,exclude,==IMMEDR
+ed_los_min,ed_los_min,excluded,0.0262,False,exclude,defines long-stay outcome
+wait_time_min,wait_time_min,excluded,0.1554,False,exclude,post-triage
+diag1_text,diag1_text,excluded,0.0141,False,exclude,post-visit diagnosis
+PATWT,PATWT,excluded,0.0,False,exclude,survey weight

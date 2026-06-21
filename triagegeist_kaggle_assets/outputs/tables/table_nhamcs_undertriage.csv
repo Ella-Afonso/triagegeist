@@ -1,0 +1,21 @@
+dataset,target,acuity_or_immediacy_level,unweighted_n,weighted_n,outcome_rate,rate_type,notes
+synthetic,is_admitted,1,3222,,0.8659,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_admitted,2,13439,,0.7687,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_admitted,3,28921,,0.4633,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_admitted,4,23020,,0.1281,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_admitted,5,11398,,0.0292,unweighted,synthetic triage_acuity (ESI-style)
+NHAMCS,is_admitted_nhamcs,1,139,1521344.5,0.506,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_admitted_nhamcs,2,1595,15653819.6,0.3678,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_admitted_nhamcs,3,5340,51507822.1,0.1495,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_admitted_nhamcs,4,2826,30093901.4,0.0262,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_admitted_nhamcs,5,307,2746217.9,0.0496,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+synthetic,is_long_stay,1,3222,,0.906,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_long_stay,2,13439,,0.7934,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_long_stay,3,28921,,0.4994,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_long_stay,4,23020,,0.0228,unweighted,synthetic triage_acuity (ESI-style)
+synthetic,is_long_stay,5,11398,,0.0,unweighted,synthetic triage_acuity (ESI-style)
+NHAMCS,is_long_stay_nhamcs,1,122,1285818.7,0.6348,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_long_stay_nhamcs,2,1545,15289536.4,0.5933,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_long_stay_nhamcs,3,5207,50377914.8,0.4634,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_long_stay_nhamcs,4,2763,29551784.2,0.2006,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate
+NHAMCS,is_long_stay_nhamcs,5,303,2726070.0,0.1737,weighted,NHAMCS IMMEDR; PATWT-weighted population estimate

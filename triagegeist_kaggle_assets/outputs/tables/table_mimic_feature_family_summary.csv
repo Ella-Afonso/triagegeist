@@ -1,0 +1,17 @@
+target,esi_band,feature_family,total_gain_importance
+is_admitted_mimic,3,vitals,52288.03
+is_admitted_mimic,3,demographics,106033.44
+is_admitted_mimic,3,complaint_tfidf,172892.24
+is_admitted_mimic,3,intake_meds,67378.19
+is_admitted_mimic,4,vitals,9107.28
+is_admitted_mimic,4,demographics,7849.85
+is_admitted_mimic,4,complaint_tfidf,9393.2
+is_admitted_mimic,4,intake_meds,4278.88
+is_long_stay_mimic,3,vitals,15078.68
+is_long_stay_mimic,3,demographics,36851.89
+is_long_stay_mimic,3,complaint_tfidf,140811.48
+is_long_stay_mimic,3,intake_meds,53562.24
+is_long_stay_mimic,4,vitals,9868.52
+is_long_stay_mimic,4,demographics,8079.71
+is_long_stay_mimic,4,complaint_tfidf,13611.55
+is_long_stay_mimic,4,intake_meds,5475.05

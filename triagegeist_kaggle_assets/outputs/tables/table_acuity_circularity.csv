@@ -1,0 +1,4 @@
+feature_set,n_features,train_qwk,holdout_qwk,qwk_generalization_gap,holdout_accuracy,holdout_balanced_accuracy,holdout_mae
+news2_only,1,0.7869,0.7893,-0.0024,0.6525,0.5596,0.3574
+core_vitals,11,0.9072,0.8888,0.0184,0.7802,0.7997,0.2271
+all_structured,47,0.9477,0.9284,0.0193,0.8476,0.863,0.154
