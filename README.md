@@ -192,3 +192,10 @@ Finally, within-band predictive signal demonstrates that residual outcome-releva
 Triagegeist is a solo entry for the Kaggle-hosted **Triagegeist** track by the **Laitinen-Fredriksson Foundation**. The project is judged by rubric rather than leaderboard position.
 
 Project code and notebook materials are released under the Apache License 2.0. Third-party datasets remain subject to their original access terms and licences.
+
+---
+
+Citations
+MIMIC-IV-ED: Johnson, A. E. W., et al. MIMIC-IV-ED (version used), PhysioNet. Available from the official PhysioNet project page.
+PhysioNet: Goldberger, A. L., Amaral, L. A. N., Glass, L., et al. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation, 101(23), e215–e220. RRID:SCR_007345.【turn724415search2】
+Johnson, A. E. W., Bulgarelli, L., Pollard, T. J., et al. (2023). MIMIC-IV, a freely accessible electronic health record dataset. Scientific Data, 10, 1. 【turn724415search3】
