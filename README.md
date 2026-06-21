@@ -147,7 +147,7 @@ Key reproducibility details:
 To run the project locally:
 
 ```bash
-git clone <your-repo-url>
+git clone <my-repo-url>
 cd triagegeist
 pip install -r requirements.txt
 jupyter lab notebooks/triagegeist_submission.ipynb
