@@ -196,6 +196,8 @@ Project code and notebook materials are released under the Apache License 2.0. T
 ---
 
 Citations
-MIMIC-IV-ED: Johnson, A. E. W., et al. MIMIC-IV-ED (version used), PhysioNet. Available from the official PhysioNet project page.
-PhysioNet: Goldberger, A. L., Amaral, L. A. N., Glass, L., et al. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation, 101(23), e215–e220. RRID:SCR_007345.【turn724415search2】
-Johnson, A. E. W., Bulgarelli, L., Pollard, T. J., et al. (2023). MIMIC-IV, a freely accessible electronic health record dataset. Scientific Data, 10, 1. 【turn724415search3】
+- MIMIC-IV-ED: Johnson, A. E. W., et al. MIMIC-IV-ED (version used), PhysioNet. Available from the official PhysioNet project page.
+
+- PhysioNet: Goldberger, A. L., Amaral, L. A. N., Glass, L., et al. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation, 101(23), e215–e220. RRID:SCR_007345.【turn724415search2】
+
+- Johnson, A. E. W., Bulgarelli, L., Pollard, T. J., et al. (2023). MIMIC-IV, a freely accessible electronic health record dataset. Scientific Data, 10, 1. 【turn724415search3】
